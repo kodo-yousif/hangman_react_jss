@@ -1,0 +1,225 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  user-select: none;
+}
+.start {
+  width: 100vw;
+  height: 100vh;
+  background: url(assets/flower.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+.font {
+  font-family: "Courgette", cursive;
+}
+
+.card {
+  padding: 25px;
+  padding-top: 25px;
+  background: -o-radial-gradient(
+    0% 0%,
+    100% 100%,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  background: radial-gradient(
+    100% 100% at 0% 0%,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-box-shadow: 0px 0px 12px rgb(82, 79, 79);
+  box-shadow: 0px 0px 15px rgb(65, 63, 63);
+}
+
+.card:hover {
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  background: -o-radial-gradient(
+    0% 0%,
+    100% 100%,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  background: radial-gradient(
+    100% 100% at 0% 0%,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  -webkit-box-shadow: 0px 0px 16px rgb(82, 79, 79);
+  box-shadow: 0px 0px 16px rgb(117, 117, 117);
+}
+
+.shadoww {
+  text-shadow: 3px 2px 7px rgb(84, 122, 192);
+}
+
+.chbtn {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.chbtn:hover {
+  cursor: pointer;
+}
+
+.top {
+  justify-self: flex-start;
+  font-size: 66px;
+  font-weight: 600;
+  margin-top: 1vh;
+  color: black;
+  text-shadow: 1px 1px 15px white;
+}
+
+.dash:hover {
+  box-shadow: none;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vh;
+}
+
+.controls div {
+  margin-right: 30px;
+  margin-left: 30px;
+  transition: 0.4s;
+}
+
+.dash {
+  width: 80%;
+  height: 90%;
+  margin: 20px;
+  box-shadow: none;
+  transition: 0.4s;
+  display: flex;
+}
+
+.s1 {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.k1 {
+  flex: 5;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  letter-spacing: 5px;
+}
+
+.k2 {
+  flex: 5;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 0.4s;
+}
+.s2 {
+  flex: 6;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+.flex_con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 33px;
+}
+
+.button_h {
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+  font-size: 25px;
+  font-weight: 600;
+  text-shadow: none;
+  vertical-align: middle;
+  line-height: 1.5;
+  padding: 2px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px rgb(77, 77, 77);
+}
+
+.work {
+  color: rgb(44, 43, 43);
+  background-color: white;
+}
+
+.work:hover {
+  cursor: pointer;
+  background-color: rgb(182, 182, 182);
+  color: white;
+}
+
+.work:active {
+  background-color: rgb(67, 121, 223);
+}
+.stop {
+  color: rgb(54, 54, 54);
+}
+
+.stop:hover {
+  cursor: not-allowed;
+}
+
+.red {
+  background-color: rgb(226, 39, 39);
+}
+
+.green {
+  background-color: rgb(23, 199, 23);
+}
+
+.flex2 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  text-align: center;
+  text-shadow: 2px 2px 3px rgb(70, 68, 68);
+}
+
+.redd {
+  color: rgb(255, 4, 4);
+}
+
+.greenn {
+  color: rgb(8, 231, 8);
+}
